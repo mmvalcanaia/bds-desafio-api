@@ -1,0 +1,35 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 230px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.info-container {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  flex-direction: column;
+  padding: 15px;
+}
+
+@media (min-width: 992px) {
+  .result-container {
+    flex-direction: row;
+  }
+  .image-container {
+    margin: 10px;
+  }
+}

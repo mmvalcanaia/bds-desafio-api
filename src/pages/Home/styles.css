@@ -1,0 +1,30 @@
+.content-container {
+  margin: 20px;
+}
+
+.content-container h1 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.content-container h6 {
+  margin-bottom: 20px;
+}
+
+.content-container button {
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .content-container{
+    padding: 30px;
+  }
+  .content-container h1 {
+    font-size: 48px;
+  }
+
+  .content-container h6 {
+    margin-bottom: 24px;
+  }
+}
